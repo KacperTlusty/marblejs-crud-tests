@@ -1,0 +1,32 @@
+{
+  "name": "marble-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@marblejs/core": "^3.1.2",
+    "@marblejs/messaging": "^3.1.2",
+    "@marblejs/middleware-body": "^3.1.2",
+    "@marblejs/middleware-io": "^3.1.2",
+    "@marblejs/middleware-logger": "^3.1.2",
+    "@typegoose/typegoose": "^7.2.0",
+    "cuid": "^2.1.8",
+    "fp-ts": "^2.6.2",
+    "mongodb": "^3.5.8",
+    "mongoose": "^5.9.19",
+    "ramda": "^0.27.0",
+    "rxjs": "^6.5.5",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.3"
+  },
+  "devDependencies": {
+    "@types/mongodb": "^3.5.20",
+    "@types/mongoose": "^5.7.27",
+    "@types/ramda": "^0.27.6"
+  }
+}
